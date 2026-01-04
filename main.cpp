@@ -76,14 +76,13 @@ void okRect(ColorRect* rect, Sound* sound)
 
 int main(int argc, char *argv[])
 {
-    if (argc < 2) {
-        printf("Usage: %s <count>", argv[0]);
-        return 1;
+    int box_count = 50;
+    if (argc > 1) {
+        box_count = stoi(argv[1]);
     }
 
     constexpr int screenWidth = 1920;
     constexpr int screenHeight = 1080;
-    int box_count = stoi(argv[1]);
 
     InitWindow(screenWidth, screenHeight, "Bubblesort Algorithm Visualization");
 
