@@ -15,3 +15,6 @@ cmake --build .
 
 You can define the size of the dataset you want sorted:
 `./bsort <amount>`
+
+## Dependencies
+Raylib
