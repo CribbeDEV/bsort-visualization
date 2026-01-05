@@ -8,8 +8,8 @@ You might not find this program very useful, but incase you want to try it out, 
 ```
 git clone https://github.com/CribbeDEV/bsort-visualization/tree/main
 cd bsort-visualization
-make .
-make --build .
+cmake .
+cmake --build .
 ./bsort
 ```
 
